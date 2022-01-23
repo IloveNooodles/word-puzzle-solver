@@ -27,4 +27,6 @@ URANUS
 VENUS
 ```
 
-1. Run the app
+2. Put the txt file in the test folder
+3. `cd src` and run the app by using `java Wordpuzzle` 
+4. If you're using the jar file that available in the github make sure put the folder test in siblings directory 
