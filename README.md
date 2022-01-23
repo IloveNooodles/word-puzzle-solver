@@ -27,6 +27,14 @@ The solver is made from Java using brute force algorithm. The algorithm itself i
     ├── test1.txt
     └── test2.txt
 ```
+
+## Requirement
+1. Java openJdk(11+)
+
+## Instalation
+1. Download the java from the java website
+1. Install it
+
 ## How to use
 
 1. create txt file in test folder with the puzzle format below
