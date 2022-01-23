@@ -213,9 +213,9 @@ public class Wordpuzzle {
         for(int row = 0; row < puzzle.puzzle.size(); row++){
           boolean hasFound = false;
           for(int col = 0; col < puzzle.puzzle.get(row).size(); col++){
+            localComparison++;
+            comparison++;
             if(word.charAt(0) ==  puzzle.puzzle.get(row).get(col)){
-              localComparison++;
-              comparison++;
               int counter = 1;
               int dir = 0;
               int multiplier = 1;
@@ -262,7 +262,7 @@ public class Wordpuzzle {
         }
       }
       long endTime = System.nanoTime();
-      double time = (endTime - startTime)/1000000;
+      double time = (double)(endTime - startTime)/1000000;
       System.out.println("==================================");
       System.out.println();
       System.out.println("Your puzzle has been solved");
