@@ -5,6 +5,9 @@ Word Puzzle is a puzzle consisting of letters arranged in a grid which contains 
 The solver is made from Java using brute force algorithm. The algorithm itself is quite simple, just match each character in the word with each character in the puzzle itself in 8 direction.
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/63847012/151035704-a4c8a99d-7d10-4ffd-9b63-39d073eb3af9.png)
+![image](https://user-images.githubusercontent.com/63847012/151035673-c8e32da4-0717-4e4b-af43-52aa4a4a83e3.png)
+![image](https://user-images.githubusercontent.com/63847012/151035753-70914f53-7a94-4cf4-a2b0-63a7a5eaf57a.png)
 
 ## Folder Structure
 
